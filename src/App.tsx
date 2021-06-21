@@ -57,7 +57,7 @@ function App() {
 			<Bk>
 				<Canvas ref={canvasRef}></Canvas>
 			</Bk>
-			<Title>王操</Title>
+			<Title>Chad Wang</Title>
 		</Container>
 	);
 }
