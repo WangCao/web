@@ -18,6 +18,7 @@ const Bk = styled.div`
 	left: 0;
 	top: 0;
 	z-index: -1;
+	font-size: 0;
 `;
 
 const Canvas = styled.canvas`
@@ -26,7 +27,7 @@ const Canvas = styled.canvas`
 `;
 
 const Title = styled.h1`
-	font-size: 80px;
+	font-size: 1rem;
 	font-weight: bold;
 	color: #fff;
 `;
@@ -57,7 +58,8 @@ function App() {
 			<Bk>
 				<Canvas ref={canvasRef}></Canvas>
 			</Bk>
-			<Title>Chad Wang</Title>
+			<Title>Wang Cao</Title>
+			
 		</Container>
 	);
 }
